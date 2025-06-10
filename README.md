@@ -1,4 +1,3 @@
-# Testing GitLab Mirror
 # CI/CD Pipeline Template (Python + Docker + GitHub Actions)
 
 This project demonstrates a fully functional CI/CD pipeline using:
