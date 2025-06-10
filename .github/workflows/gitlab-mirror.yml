@@ -21,4 +21,4 @@ jobs:
           git config --global user.name "GitHub Mirror Bot"
           git config --global user.email "mirror@example.com"
           git remote add gitlab https://$GITLAB_USERNAME:$GITLAB_PASSWORD@${GITLAB_REPO_URL#https://}
-          git push gitlab main
+          git push --force gitlab main
