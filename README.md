@@ -68,6 +68,14 @@ Jobs:
 
 ---
 
+## 🔁 GitHub-to-GitLab Mirroring
+
+This project is mirrored from GitHub to GitLab via GitHub Actions. The mirror enables GitLab CI/CD to run automatically alongside GitHub Actions, demonstrating multi-platform CI/CD automation.
+
+View on GitLab: [https://gitlab.com/tylermac92/ci-cd-pipeline-template-gitlab](https://gitlab.com/tylermac92/ci-cd-pipeline-template-gitlab)
+
+---
+
 ## 🧰 Tech Stack
 
 - Python 3.10
@@ -80,7 +88,6 @@ Jobs:
 
 ## 🧪 Future Improvements
 
-- Add GitLab CI/CD support in `.gitlab-ci.yml`
 - Add Helm chart for Kubernetes deployment
 - Push Docker image to GitHub Container Registry (GHCR)
 
