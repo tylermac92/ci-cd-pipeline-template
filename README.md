@@ -76,6 +76,27 @@ View on GitLab: [https://gitlab.com/tylermac92/ci-cd-pipeline-template-gitlab](h
 
 ---
 
+## 🐳 Docker Image
+
+The Docker image is automatically built and pushed to **GitHub Container Registry (GHCR)** after successful tests.
+
+- Image URL: `ghcr.io/tylermac92/flask-ci-app:latest`
+- Used by the Helm chart for Kubernetes deployment
+
+---
+
+## 📦 Helm Chart
+
+This repo includes a Helm chart located in `helm/flask-app` that can be used to deploy the Flask app to any Kubernetes cluster.
+
+To deploy:
+
+```bash
+helm upgrade --install flask-app ./helm/flask-app
+```
+
+---
+
 ## 🧰 Tech Stack
 
 - Python 3.10
